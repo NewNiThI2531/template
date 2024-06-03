@@ -1,0 +1,136 @@
+body{
+    background: #f5f5f5;
+}
+.st1{
+    margin-top: 130px;
+    /*width: 127px;
+    height: 96px;*/
+
+    text-align: start;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    /* line-height: 96px; */
+    color: #1A2F4D;
+}
+
+.st2{
+    /*width: 215px;
+    height: 60px;*/
+
+    text-align: start;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    /* line-height: 60px; */
+    color: #153050;
+}
+
+.st3{
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    margin-right: -80px;
+ }
+ @media screen and (max-width: 650px) and (min-width: 0px) {
+    .st3
+    {
+        margin-right: 0px;
+    }
+  
+    }
+    @media screen and (max-width: 1200px) and (min-width: 0px) {
+        .st1
+        {
+            font-size: 50px;
+            text-align: center;
+        }
+        .st2
+            {
+                text-align: center;
+                font-size: 35px;
+                text-align: start;
+            }
+        }
+        @media screen and (max-width: 991px) and (min-width: 0px) {
+            .st1
+            {
+                margin-top: 50px;
+                font-size: 40px;
+                text-align: center;
+            }
+            .st2
+                {
+                    font-size: 25px;
+                    text-align: center;
+                }
+                .st3
+                {
+                    width: 100%;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                    margin-right: -30px;
+                }
+            }     
+        @media screen and (max-width: 767px) and (min-width: 0px) {
+            .st1
+            {
+                font-size: 35px;
+                text-align: center;
+            }
+            .st2
+                {
+                    font-size: 20px;
+                    text-align: center;
+                }
+            }
+            @media screen and (max-width: 575px) and (min-width: 0px) {
+                .st1
+                {
+                    font-size: 35px;
+                    text-align: center;
+                }
+                .st2
+                    {
+                        font-size: 20px;
+                        text-align: center;
+                    }
+                    .st3
+                    {
+                        width: 100%;
+                        margin-top: 20px;
+                        margin-bottom: 20px;
+                        margin-right: -20px;
+                    }     
+                }
+
+                @media screen and (max-width: 320px) and (min-width: 0px) {
+                    .st1
+                    {
+                        font-size: 30px;
+                        text-align: center;
+                    }
+                    .st2
+                        {
+                            font-size: 15px;
+                            text-align: center;
+                        }
+                        .st3
+                        {
+                            width: 100%;
+                            margin-top: 20px;
+                            margin-bottom: 20px;
+                            margin-right: -10px;
+                        }     
+                    }
+             
+         
+     
+ /* --------------------------------------------------------------- */
+
+
+ 
+
+  

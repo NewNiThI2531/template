@@ -1,0 +1,215 @@
+.vi1{
+    background-image: url(/asset/images/vission.png);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    width: 100%;
+    display: grid;
+    align-content: center;
+    justify-self: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+ 
+}
+.textvi1{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: left;
+    margin-left: 70%;
+    color: #C5A254;
+}
+.textvi2{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    
+    text-align: left;
+    text-align: left;
+    margin-left: 70%;
+    color: #C5A254;
+}
+.textvi3{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    text-align: left;
+    margin-left: 70%;
+    color: #C5A254;
+}
+.textvi4{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: left;
+    text-align: left;
+    margin-left: 70%;
+    color: #C5A254;
+}
+
+@media screen and (max-width: 1132px) and (min-width: 972px) { 
+    .textvi1
+    {
+        margin-left: 65%;
+    }   
+    
+    .textvi2
+    {
+        margin-left: 65%;
+    }   
+    
+    .textvi3
+    {
+        margin-left: 65%;
+    }   
+    
+    .textvi4
+    {
+        margin-left: 65%;
+    }
+    }
+    @media screen and (max-width: 971px) and (min-width: 300px) { 
+        .textvi1
+        {
+            margin-left: 55%;
+        }   
+        
+        .textvi2
+        {
+            margin-left: 55%;
+        }   
+        
+        .textvi3
+        {
+            margin-left: 55%;
+        }   
+        
+        .textvi4
+        {
+            margin-left: 55%;
+        } 
+        }
+
+        @media screen and (max-width: 971px) and (min-width: 300px) { 
+            .textvi1
+            {
+                margin-left: 45%;
+            }   
+            
+            .textvi2
+            {
+                margin-left: 45%;
+            }   
+            
+            .textvi3
+            {
+                margin-left: 45%;
+            }   
+            
+            .textvi4
+            {
+                margin-left: 45%;
+            }
+            }
+
+            @media screen and (max-width: 620px) and (min-width: 300px) { 
+                .textvi1
+                {
+                    margin-left: 35%;
+                }   
+                
+                .textvi2
+                {
+                    margin-left: 35%;
+                }   
+                
+                .textvi3
+                {
+                    margin-left: 35%;
+                }   
+                
+                .textvi4
+                {
+                    margin-left: 35%;
+                }
+                }
+
+                @media screen and (max-width: 530px) and (min-width: 300px) { 
+                    .textvi1
+                    {
+                        margin-left: 25%;
+                    }   
+                    
+                    .textvi2
+                    {
+                        margin-left: 25%;
+                    }   
+                    
+                    .textvi3
+                    {
+                        margin-left: 25%;
+                    }   
+                    
+                    .textvi4
+                    {
+                        margin-left: 25%;
+                    }
+                    }
+
+                    @media screen and (max-width: 425px) and (min-width: 300px) { 
+                        .textvi1
+                        {
+                            margin-left: 15%;
+                        }   
+                        
+                        .textvi2
+                        {
+                            margin-left: 15%;
+                        }   
+                        
+                        .textvi3
+                        {
+                            margin-left: 15%;
+                        }   
+                        
+                        .textvi4
+                        {
+                            margin-left: 15%;
+                        }
+                        }
+
+                        @media screen and (max-width: 320px) and (min-width: 300px) { 
+                            .textvi1
+                            {
+                                margin-left: 15%;
+                                font-size: 30px;
+                            }   
+                            
+                            .textvi2
+                            {
+                                margin-left: 15%;
+                                font-size: 15px;
+                            }   
+                            
+                            .textvi3
+                            {
+                                margin-left: 15%;
+                                font-size: 30px;
+                            }   
+                            
+                            .textvi4
+                            {
+                                margin-left: 15%;
+                                font-size: 15px;
+                            }
+                            .vi1{
+                                height: auto;
+                            }
+                            }

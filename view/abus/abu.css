@@ -1,0 +1,294 @@
+
+body{
+    background: #F5F5F5;
+}
+.abulogo{
+    /* width: 100%; */
+    height: 200px;
+    object-fit: cover;
+}
+
+.alltower{
+    width: 100%;
+}
+.abtext1{
+     color: #153050;
+     font-family: 'Kanit';
+     font-style: normal;
+     font-weight: 400;
+     font-size: 24px;
+     line-height: 36px;
+}
+.abtext2{
+    color: #424242;    
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    /* line-height: 24px; */
+}
+.abtext3{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: #153050;
+    padding-bottom: 3%;
+}
+.abtext4{
+    color: #424242;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 10%;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+}
+.abtext5{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+    color: #948668;
+    padding-bottom: 15%;
+}
+.abtext6{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 5%;
+    padding-right: 46%;
+    margin-top: 5px;
+    /* line-height: 24px; */
+    color: #153050;
+    transition: 0.3s;
+    /* transition-duration: 0.3s; */
+}
+.abtext6:hover{
+    color: #C5A254;
+    padding-left: 22px;
+}
+
+.abu1{
+    /* background-color: #ffffff; */
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.abu2{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.abu3{
+    padding-left: 5%;
+    padding-right: 3%;
+    padding-top: 6%;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* display: -webkit-box; */
+    -webkit-line-clamp: 4;
+}
+.abtext2{
+    margin-top: 10px;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 6;
+}
+.home01{
+    box-shadow: -5px 0px 0px 0px #c5a254;
+    /* border-left: 4px solid #C5A254; */
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    object-position: center;
+}
+.bgcolor{
+    background-color: #EDEDED;
+}
+
+
+
+
+
+@media screen and (max-width: 2560px) and (min-width: 1441px) {
+    .abtext3
+    {
+        font-size: 30px;
+    }
+    .abtext4
+    {
+        font-size: 20px;    
+        margin-bottom: 5px;
+    }
+    .abtext5
+    {
+        font-size: 16px!important;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+    .abtext6
+    {
+        font-size: 14px;
+        line-height: 0px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 426px) {
+    .abtext6
+    {
+        font-size: 10px;
+        line-height: 0px;
+        margin-bottom: 10px;
+    }
+    .abulogo{
+        /* width: 100%; */
+        height: 114px;
+    }
+    .abtext1{
+        font-size: 20px;
+    }
+    .abtext2{
+        font-size: 12px;
+    }
+    .abtext3{
+        font-size: 26px;
+        padding-bottom: 10px;
+        margin: 0px;
+        text-align: center;
+    }
+    .abtext4{
+        font-size: 16px;
+        padding-bottom: 20px;
+        margin: 0px;
+        text-align: center;
+    }
+    .abtext5{
+        font-size: 16px;
+        padding-bottom: 15px;
+        margin: 0px;
+        text-align: center;
+    }
+    .abtext6{
+        font-size: 16px;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 425px) and (min-width: 321px) {
+    .alltower{
+        height: 300px;
+        object-fit: cover;
+    }
+    .abulogo
+    {
+        width: 70%;
+        height: auto;
+    }
+    .abu1{
+        margin-bottom: 0px;
+    }
+    .abu2{
+        margin-bottom: 20px;
+    }
+    .abtext1
+    {
+        font-size: 22px;
+        text-align: center;
+    }
+    .abtext2
+    {
+        font-size: 16px;
+        text-align: center;
+    }
+    .abtext3{
+        font-size: 24px;
+        padding-bottom: 10px;
+        margin: 0px;
+        text-align: center;
+    }
+    .abtext4{
+        font-size: 14px;
+        padding-bottom: 20px;
+        margin: 0px;
+        text-align: center;
+    }
+    .abtext5{
+        font-size: 14px;
+        padding-bottom: 15px;
+        margin: 0px;
+        text-align: center;
+    }
+    .abtext6{
+        font-size: 14px;
+        /* margin: 0px; */
+        padding-bottom: 5px;
+        padding-right: 10px;
+        padding-left: 5px;
+        text-align: center;
+        display: -webkit-inline-box;
+    }
+    .abtext6:hover{
+        color: #C5A254;
+        padding-left: 5px;
+    }
+    .home01{
+        height: auto;
+    }
+}
+@media screen and (max-width: 320px) and (min-width: 0px) {
+    .abulogo
+    {
+        width: 100%;
+        height: auto;
+    }
+    .abu1{
+        margin-bottom: 0px;
+    }
+    .abtext1
+    {
+        font-size: 16px;
+        text-align: center;
+    }
+    .abtext2
+    {
+        font-size: 16px;
+        text-align: center;
+    }
+    .abtext3{
+        font-size: 20px;
+        padding-bottom: 10px;
+        margin: 0px;
+        text-align: center;
+    }
+    .abtext4{
+        font-size: 14px;
+        padding-bottom: 20px;
+        margin: 0px;
+        text-align: center;
+    }
+    .abtext5{
+        padding-bottom: 20px;
+    }
+    .abtext6{
+        padding: 0px;
+        line-height: 0px;
+        font-size: 14px;
+        text-align: center;
+        margin-left: 20px;
+    }
+    .home01{
+        height: auto;
+    }
+}

@@ -1,0 +1,320 @@
+body{
+    background: #f5f5f5;
+}
+
+
+::-webkit-scrollbar {
+    width: 2px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    /* background: #C5A254;  */
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #C5A254; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+
+.corbanner{
+    /* background-image: url(/asset/images/corban.png); */
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+}
+.corconinban1{
+    padding-top: 175px;
+}
+.corinimg{
+    object-fit: cover;
+    width: 100%;
+    height: 350px;
+}
+.corintext1{
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 400;
+    width: 400px;
+    word-wrap: break-word;
+    /* margin-top: 30px; */
+}
+.corintext2{
+    color: #C5A254;
+    font-size: 16px;
+    height: 200px;
+    /* width: 500px; */
+    padding-right: 40px;
+    word-wrap: break-word;
+    overflow-y: scroll;
+    overflow-x: 10px;
+}
+/* .corintext2::first-line{
+    width: 30px;
+} */
+
+.linescroll1{
+    border-left: 2px solid #C5A254;
+    height: 40px;
+    margin-top: 100px;
+
+    
+}
+
+/* ------------------- */
+
+
+
+/* -------------------- */
+
+.corinscroll1{
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+
+.corconinban2{
+    margin-top: 80px
+}
+.corinimg2{
+    width: 100%;
+    height: 350px;
+}
+.corintext3{
+    color: #153050;
+    font-size: 16px;
+    margin-top: 50px;
+    width: 480px;
+    height: 200px;
+    padding-right: 40px;
+    word-wrap: break-word;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.linescroll2{
+    border-left: 2px solid #C5A254;
+    height: 40px;
+    /* display: inline-block; */
+}
+.corinscroll2{
+    color: #153050;
+    text-transform: uppercase;
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+
+.corbanner2{
+    width: 100%;
+    height: 510px;
+    margin-top: 80px;
+}
+.corconinban3{
+    /* margin-top: 80px; */
+}
+.corintextbot1{
+    margin-top: 160px;
+    font-size: 100px;
+    color: #FFFFFF;
+}
+.cordateban{
+    margin-top: 80px;
+    background: #4b4b4bc2;
+    height: 32px;
+}
+.corintextbot2{
+    font-size: 20px;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 767px) { 
+    .corinimg {
+        object-fit: cover;
+        width: 100%;
+        height: 280px;
+    }
+    .corintext1 {
+        color: #FFFFFF;
+        font-size: 25px;
+        font-weight: 400;
+        width: 400px;
+        word-wrap: break-word;
+        /* margin-top: 30px; */
+    }
+    .corintext2 {
+        color: #C5A254;
+        font-size: 15px;
+        width: 480px;
+        height: 200px;
+        width: 450px;
+        padding-right: 20px;
+        word-wrap: break-word;
+        overflow-y: scroll;
+        overflow-x: 10px;
+    }
+    .corintext3 {
+        color: #153050;
+        font-size: 15px;
+        margin-top: 50px;
+        width: 390px;
+        height: 200px;
+        padding-right: 20px;
+        word-wrap: break-word;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    .corin{
+        /* position: absolute; */
+        object-fit: cover;
+        width: 100%;
+        height: 400px;
+    }
+    } 
+
+    @media screen and (max-width: 963px) and (min-width: 768px) {
+        .corconinban1 {
+            padding-top: 40px;
+        }
+        .corinimg {
+            object-fit: cover;
+            width: 80%;
+            height: 280px;
+        }
+    }
+
+    @media screen and (max-width: 768px) and (min-width: 426px) { 
+        .corinimg {
+            object-fit: cover;
+            width: 70%;
+            height: 280px;
+        }
+        .corbanner{
+            height: auto;
+        }
+        .corintext1{
+            text-align: center;
+            margin-top: 16px;
+            width: auto;
+        }
+        .corintext2{
+            padding-left: 50px;
+            padding-right: 50px;
+            width: auto;
+        }
+        .corintext3{
+            padding-left: 50px;
+            padding-right: 50px;
+            width: auto;
+        }
+        .corin{
+            /* position: absolute; */
+            object-fit: cover;
+            width: 100%;
+            height: 400px;
+        }
+        .linescroll1 {
+            border-left: 2px solid #C5A254;
+            height: 40px;
+            margin-top: 50px;
+            margin-bottom: 20px;
+            /* display: inline-block; */
+        }
+        .linescroll2 {
+            border-left: 2px solid #C5A254;
+            height: 40px;
+            margin-top: 50px;
+            margin-bottom: 20px;
+            /* display: inline-block; */
+        }
+
+        } 
+
+        @media screen and (max-width: 425px) and (min-width: 0px) { 
+            .corinimg {
+                object-fit: cover;
+                width: 100%;
+                height: 200px;
+            }
+            .corintext1 {
+                color: #FFFFFF;
+                font-size: 20px;
+                font-weight: 400;
+                text-align: center;
+                width: auto;
+                margin-top: 30px;
+            }
+            .corintext2 {
+                color: #C5A254;
+                font-size: 16px;
+                height: 200px!important;
+                width: auto;
+                padding-right: 20px;
+                word-wrap: break-word;
+                overflow-y: scroll;
+                overflow-x: 10px;
+                margin-bottom: 0!important;
+            }
+            .corintext3 {
+                color: #153050;
+                font-size: 16px;
+                margin-top: 50px;
+                width: auto;
+                height: 200px;
+                padding-right: 40px;
+                word-wrap: break-word;
+                overflow-y: scroll;
+                overflow-x: hidden;
+            }
+            .corin{
+                /* position: absolute; */
+                object-fit: cover;
+                width: 100%;
+                height: 400px;
+            }
+            .corconinban1 {
+                padding-top: 90px;
+            }
+            .linescroll1 {
+                border-left: 2px solid #C5A254;
+                height: 40px;
+                margin-top: 20px;
+                margin-bottom: 10px;
+                /* display: inline-block; */
+            }
+            .linescroll2 {
+                border-left: 2px solid #C5A254;
+                height: 40px;
+                margin-top: 20px;
+                margin-bottom: 10px;
+                /* display: inline-block; */
+            }
+
+            } 
+
+@media screen and (max-width: 320px) and (min-width: 0px) { 
+    .corinimg{
+        width: 100%;
+    }
+    .corin{
+        /* position: absolute; */
+        object-fit: cover;
+        width: 100%;
+        height: 400px;
+    }
+    .corconinban1 {
+        padding-top: 90px;
+    }
+    } 
+
+
+    

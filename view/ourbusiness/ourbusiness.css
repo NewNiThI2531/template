@@ -1,0 +1,416 @@
+body{
+    background: #F5F5F5;
+}
+
+::-webkit-scrollbar {
+    width: 2px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    /* background: #C5A254;  */
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #C5A254; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+.ourbusbg{
+    /* background: url(asset/images/businessban.png), #D9D9D9; */
+    width: 100%;
+    height: 720px;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+}
+.business{
+    width: 100%;
+}
+.our{
+    font-size: 16px;
+}
+.buss{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #1A2F4D;
+    margin-top: 20px;
+    height: 140px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+/*overview*/
+.bus1{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+    color: #1A2F4D!important;
+    margin-top: 40px;
+}
+.bus2{
+    text-align: center;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    color: #1A2F4D!important;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.vertical-line{
+    width: 36px;
+    height: 3px;
+    display: block;
+    margin-left: 730px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background-color: #C5A254;
+    transform: rotate(90deg);
+}
+
+.busfem1{
+    width: 100%;
+    height: 280px;
+    align-content: center;
+    justify-self: center;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/**size width height row fem */
+
+.textfem1{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+    color: #1A2F4D;
+}
+.textfem1:hover{
+
+}
+.textfem2{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 0px;
+    color: #1A2F4D;
+}
+
+.viewfem{
+    /* background-image: url(/asset/images/viewfem.png); */
+    background-size: cover;
+    background-position: center;
+    /* height: 700px; */
+    width: 100%;
+    display: grid;
+    align-content: center;
+    justify-self: center;
+    margin-top: 5%;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+.vfem{
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+    margin-bottom: 60px;
+}
+/* .vfem1{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-size: 32px;
+    color: #1A2F4D;
+    padding-left: 10px;
+} */
+.vfem2{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-size: 34px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+
+
+.vfem3{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px!important;
+    margin-bottom: 0px;
+}
+.vfem4{
+    color: #ffffff;
+    font-size: 18px;
+}
+.iconfem{
+    width: 25%;
+    height: 90px;
+}
+
+.verticallinebus{
+    border-left: 4px solid #C5A254;
+    height: 40px;
+    width: 1px;
+    display: inline-block;
+}
+
+
+@media screen and (max-width:575px ) and (min-width: 0px) {
+    .viewfem{
+        height: 800px;
+        object-fit: cover;
+    } 
+    .ourbusbg{
+        /* background: url(asset/images/businessban.png), #D9D9D9; */
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width:1024px ) and (min-width: 767px) {
+    .ourbusbg{
+        /* background: url(asset/images/businessban.png), #D9D9D9; */
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+        background-position: center;
+        background-size: cover;
+    }
+    .viewfem{
+        height: 600px;
+    }
+
+    .iconfem {
+        width: 24%;
+        height: 66px;
+    }
+}
+
+
+@media screen and (max-width:768px ) and (min-width: 426px) {
+    .ourbusbg {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        background-position: center;
+        background-size: cover;
+    }
+    .bus1{
+        margin-top: 18px;
+    }
+    .bus2{
+        font-size: 26px;
+    }
+    .buss{
+        font-size: 14px;
+    }
+    .verticallinebus{
+        border-left: 3px solid #C5A254;
+        height: 33px;
+        width: 1px;
+    }
+    .busfem1{
+        width: 100%;
+        height: 200px;
+        align-content: center;
+        justify-self: center;
+        object-fit: cover;
+        background-position: center;
+        background-size: cover;
+    }
+    .textfem1{
+        font-size: 20px;
+        text-align: center;
+    }
+    .textfem2{
+        font-size: 13px;
+        text-align: center;
+    }
+    .viewfem{
+        height: 400px;
+    }
+    .vfem{
+        font-size: 26px;
+        margin-top: 100px;
+        margin-bottom: 0px;
+    }
+    .iconfem {
+        width: 24%;
+        height: 50px;
+    }
+    .vfem2 {
+        font-family: 'Kanit';
+        font-style: normal;
+        font-size: 30px;
+        color: #ffffff;
+        font-weight: 400;
+    }
+    .vfem3 {
+        color: #ffffff;
+        font-size: 16px;
+    }
+    .vfem4 {
+        color: #ffffff;
+        font-size: 16px;
+    }
+}
+
+
+@media screen and (max-width: 425px ) and (min-width: 321px) {
+    .ourbusbg {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        background-position: center;
+        background-size: cover;
+    }
+    .bus1{
+        margin-top: 16px;
+    }
+    .bus2{
+        font-size: 24px;
+    }
+    .buss{
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    .verticallinebus{
+        border-left: 3px solid #C5A254;
+        height: 33px;
+        width: 1px;
+    }
+    .busfem1{
+        width: 100%;
+        height: 200px;
+        align-content: center;
+        justify-self: center;
+        object-fit: cover;
+        background-position: center;
+        background-size: cover;
+    }
+    .textfem1{
+        font-size: 18px;
+        text-align: center;
+    }
+    .textfem2{
+        font-size: 12px;
+        text-align: center;
+    }
+    .vfem {
+        display: flex;
+        justify-content: center;
+        margin-top: 120px;
+        margin-bottom: 30px;
+    }
+    .viewfem {
+        height: 550px;
+        object-fit: cover;
+        background-position: center;
+        background-size: cover;
+    }
+    .iconfem {
+        width: 44%;
+        height: 55px;
+    }
+    .vfem2 {
+        font-family: 'Kanit';
+        font-style: normal;
+        font-size: 30px;
+        color: #ffffff;
+        font-weight: 400;
+    }
+    .vfem3{
+        color: #ffffff;
+        font-size: 16px;
+    }
+
+    .vfem4{
+        color: #ffffff;
+        font-size: 14px;
+    }
+}
+
+
+@media screen and (max-width: 320px ) and (min-width: 0px) {
+    .vfem {
+        display: flex;
+        justify-content: center;
+        margin-top: 40px;
+        margin-bottom: -40px;
+    }
+    .vfem2 {
+        font-style: normal;
+        font-size: 30px;
+        color: #ffffff;
+        font-weight: 400;
+    }
+    .ourbusbg {
+        width: 100%;
+        height: 270px;
+        object-fit: cover;
+        background-position: center;
+        background-size: cover;
+    }
+    .bus1{
+        margin-top: 16px;
+    }
+    .bus2{
+        font-size: 24px;
+    }
+    .buss{
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    .verticallinebus{
+        border-left: 3px solid #C5A254;
+        height: 33px;
+        width: 1px;
+    }
+    .busfem1{
+        width: 100%;
+        height: 140px;
+        align-content: center;
+        justify-self: center;
+        object-fit: cover;
+        background-position: center;
+        background-size: cover;
+    }
+    .textfem1{
+        font-size: 14px;
+        text-align: center;
+    }
+    .textfem2{
+        font-size: 10px;
+        text-align: center;
+    }
+    .viewfem {
+        height: auto;
+        object-fit: cover;
+        background-position: center;
+        background-size: cover;
+    }
+    .iconfem {
+        width: 30%;
+        height: 76px;
+        object-fit: cover;
+    }
+}

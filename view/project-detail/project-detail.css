@@ -1,0 +1,181 @@
+.coloee
+{
+    background-color: #F5F5F5;
+}
+.fontA
+{
+    text-align: center;
+    font-size: 48px;
+    font-weight: 400;
+    padding-bottom: 32px;
+}
+.fontB
+{
+    /* float: right; */
+    font-weight: 400;
+    font-size: 20px;
+    color: #153050;
+    margin-bottom: 30px;
+}
+.button1 
+{
+    border-radius: 30px;
+    width:103px;
+    height: 52px;
+    border-color: #20317B;
+    background-color: #FFFFFF;
+}
+.spaceA
+{
+    padding-bottom: 20px;
+}
+.font1
+{
+    font-size: 24px;
+    color: #153050;
+    /* padding-left: 82px; */
+    font-weight: 600;
+
+}
+.font2
+{
+    font-size: 20px;
+    font-weight: 300;
+    color :#C5A254;
+}
+.font3
+{
+    font-size: 14px;
+    color :#747474;
+    padding-left: 82px;
+}
+.spaceB
+{
+    padding-bottom: 50px;
+}
+.font4
+{
+    font-size: 14px;
+    color: #747474;
+    font-weight: bold   
+}
+.spaceC
+{
+    padding-bottom: 128px;
+}
+.pct
+{
+ width: 70%;
+ /* height: 400px; */
+ float: right;
+}
+.spaceD
+{
+    float: right;
+    padding-top: 15px;
+}
+
+/* @media screen and (min-width: 1024px) and (max-width: 425px) {
+    .pct{
+        width: 80%;
+    }
+} */
+@media screen and (min-width: 0px) and (max-width: 425px) {
+    .pct
+{
+    height: 100% ;
+ width: 100%;
+}
+.fontA
+{
+    font-size: 16px;
+}
+.fontB
+{
+    font-size: 12px;
+}
+.font1
+{
+    font-size: 11px;
+    padding-left: 0px;
+
+}
+.font2
+{
+    font-size: 10px;
+}
+.font3
+{
+    font-size: 11px;
+}
+.button1 
+{
+    border-radius: 30px;
+    width: 80px;
+    height: 40px;
+}
+
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    .pct
+{
+    height: 100% ;
+
+ width: 100%;
+}
+.fontA
+{
+    font-size: 24px;
+}
+.fontB
+{
+    font-size: 16px;
+}
+.font1
+{
+    font-size: 12px;
+    padding-left: 0px;
+
+}
+.font2
+{
+    font-size: 11px;
+}
+.font3
+{
+    font-size: 12px;
+}
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .pct
+{
+    width: 80%;
+    height: 100% ;
+}
+.fontA
+{
+    font-size: 30px;
+}
+.fontB
+{
+    font-size: 18px;
+}
+.font1
+{
+    font-size: 13px;
+    padding-left: 0px;
+
+}
+.font2
+{
+    font-size: 12px;
+}
+.font3
+{
+    font-size: 13px;
+}
+
+}

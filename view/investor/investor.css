@@ -1,0 +1,794 @@
+.invesban{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 841px;
+    display: grid;
+    align-content: center;
+    justify-self: center;
+    /* margin-top: 20px; */
+    margin-bottom: 0px;
+    margin-left: 0px;
+    object-fit: cover;
+}
+/**COLOR BANNER 1 ------------------ */
+.investorban{
+    width: 100%;
+}
+.invescolor1{
+    position: relative;
+    /* top: -184px; */
+    bottom: 142px;
+    background: linear-gradient(180deg, rgba(21, 48, 80, 0.29) 0%, #153050 100%);
+}
+.invescolor2{
+    background: #1A2F4D;
+    position: relative;
+    /* top: -184px; */
+    bottom: 142px;
+}
+
+/**TEXT IN BANNER 1---------------------  */
+.investext1{
+    margin-top: 20px;
+    margin-left: 100px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    /* line-height: 36px; */
+    color: #ffffff;
+    text-align: start;
+}
+.investext2{
+    margin-top: 10px;
+    margin-left: 100px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 32px;
+    /* line-height: 60px; */
+    color: #ffffff;
+    text-align: start;
+}
+
+/**TEXT IN BANNER 2---------------------  */
+.investext3{
+    text-align: start;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 36px;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: #C5A254;
+}
+.investext4{
+    text-align: start;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 34px;
+    line-height: 60px;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+}
+.investext04{
+    font-size: 14px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.investext5{
+    text-align: start;
+    color: #ffffff;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 40px;
+    margin-left: -3%;
+}
+
+/** INVESTOR OVERVIEW TEXT -------------------------------------------- */
+.invesover{
+    margin-top: -70px;
+}
+.invesovertext1{
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #1A2F4D;
+}
+.invesovertext2{
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+  color: #1A2F4D;
+}
+.investorline{
+  margin: 10px 30px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  border-left: 4px solid #C5A254;
+  height: 0px;
+  width: 0px;
+  display: inline-block;
+}
+.invesovertext3{
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  width: 100%;
+}
+
+/** 4 Colum Images ------------------------------- */
+.invesfem1{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 280px;
+    display: grid;
+    align-content: center;
+    justify-self: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+.invesfem2{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 280px;
+    display: grid;
+    align-content: center;
+    justify-self: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+.invesfem3{
+    
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 280px;
+    display: grid;
+    align-content: center;
+    justify-self: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+.invesfem4{
+  
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 280px;;
+    display: grid;
+    align-content: center;
+    justify-self: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.invescol{
+    margin-top: 20px;
+    margin-bottom: 50px;
+    /* width: 1100px; */
+}
+.invesfemtext1{
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #424242;
+  margin-top: 20px;
+  text-align: left;
+}
+.invesfemtext2{
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+  color: #424242;
+  text-align: left;
+  margin-bottom: 0px;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+}
+
+/** FINANCIAL --------------------------------------------------------- */
+.financial{
+    /* background-image: url(/asset/images/viewfem.png); */
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: 100%;
+    display: grid;
+    align-content: center;
+    justify-self: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+.vfinan{
+    /*justify-content: center;
+    /*width: 800px;*/
+    align-items: center;
+    margin-top: 70px;
+}
+.vfinan1{
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+  color: #ffffff;
+  align-self: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.vfinan01{
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  margin-bottom: 90px;
+}
+.vfinan2{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    margin-left: -30px;
+    margin-top: 20px;
+}
+.vfinan3{
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin-left: -30px;
+    margin-top: 10px;
+}
+.iconfem{
+    margin-left: 25px;
+    margin-top: -20px;
+    width: 71.25px;
+    height: 71.25px;
+}
+.iconfinan{
+  padding-left: 35%;
+}
+
+/** CHART ---------------------------------------- */
+.chart1{
+  margin-top: -50px;
+  margin-bottom: 150px;
+}
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+
+@keyframes bake-pie {
+  from {
+    transform: rotate(0deg) translate3d(0,0,0);
+  }
+}
+
+body {
+  font-family: "Open Sans", Arial;
+  background: #EEE;
+}
+.pieID {
+  display: inline-block;
+  vertical-align: top;
+}
+.pie {
+  height: 100px;
+  width: 0px;
+  margin-left: 200px;
+  position: relative;
+  margin: 0 40px 30px 0;
+}
+.pie::before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: 1;
+  width: 130px;
+  height: 130px;
+  background: #EEE;
+  border-radius: 50%;
+  top: 35px;
+  left: 35px;
+}
+.pie::after {
+  content: "";
+  display: block;
+  width: 200px;
+  height: 2px;
+  background: rgba(0,0,0,0.1);
+  border-radius: 50%;
+  /*box-shadow: 0 0 3px 4px rgba(255, 255, 255, 0.1);*/
+  margin: 220px auto;
+  
+}
+.slice {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  clip: rect(0px, 200px, 200px, 100px);
+  animation: bake-pie 1s;
+}
+.slice span {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: black;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  clip: rect(0px, 200px, 200px, 100px);
+}
+.legend {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 10%;
+  /*background: #FFF;*/
+  padding:0px;
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+  /*box-shadow: 1px 1px 0 #DDD,
+              2px 2px 0 #BBB;*/
+}
+.legend li {
+  width: 250px;
+  height: 1em;
+  margin-bottom: 0.7em;
+  padding-left: 0.5em;
+  border-left: 1.25em solid black;
+}
+.legend em {
+  font-style: normal;
+}
+.legend span {
+  float: right;
+}
+.leinves{
+  margin-bottom: -1.5rem;
+}
+  
+/** INVESTOR GOVERNANCE TEXT -------------------------------------------- */
+.invesgove{
+    margin-top: 40px;
+}
+.invesgove1{
+  text-align: center;
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 48px;
+  color: #1A2F4D;
+}   
+.invesgove2{
+    width: 36px;
+    height: 3px;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    background-color: #C5A254;
+    transform: rotate(90deg);
+    align-content: center;
+    justify-self: center;
+}
+
+/**DOWNLOAD ZONE --------------------------------------------- */
+.invesload{
+    margin-top: 20px;
+    /*justify-self: center;
+    align-content: center;*/
+    text-align: center;
+}
+
+/** BUTTON ------------------------------------------------------ */
+.invesdownload{
+    margin-bottom: 100px;
+    justify-content: center;
+    align-self: center;
+}
+.invesbutton {
+    width: 380px;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    cursor: pointer;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 4px; 
+    border-radius: 0px 0px 20px 20px;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    border-radius: 0px 0px 10px 10px;
+  }
+  .invesbutton:hover {
+    background-color: rgb(148, 148, 148);
+  }
+  .invesdown1{
+    width: 380px;
+    height: 177px;
+    background-color: #424242;
+    border-radius: 0px 0px 0px 0px;
+  }
+  .invescircle{
+    margin-top: 20px;
+  }
+  .invesdowntext{
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-top: 30px;
+  }
+
+  .invesicon{
+    margin-left: 180px;
+}
+.row{
+ position: relative;
+}
+.col-xs{
+    width: 100%;
+    height: 841px;
+}    
+.col-md{
+    width: 100%;
+    height: 841px;
+}
+.col-lg{
+    width: 100%;
+    height: 841px;
+}
+.col-xxl{
+    width: 100%;
+    height: 841px;
+}
+
+.headcard{
+  text-align: center;
+}
+/* .as{
+  background-color: #D9D9D9;
+
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: start;
+}
+.as:hover{
+  background-color: #FFFFFF;
+}
+
+.aa{
+  background-color: #424242;
+} */
+
+#container {
+  height: 400px;
+}
+
+.highcharts-figure,
+.highcharts-data-table table {
+  min-width: 310px;
+  max-width: 800px;
+  margin: 1em auto;
+}
+
+.highcharts-data-table table {
+  font-family: Verdana, sans-serif;
+  border-collapse: collapse;
+  border: 1px solid #ebebeb;
+  margin: 10px auto;
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+}
+
+.highcharts-data-table caption {
+  padding: 1em 0;
+  font-size: 1.2em;
+  color: #555;
+}
+
+.highcharts-data-table th {
+  font-weight: 600;
+  padding: 0.5em;
+}
+
+.highcharts-data-table td,
+.highcharts-data-table th,
+.highcharts-data-table caption {
+  padding: 0.5em;
+}
+
+.highcharts-data-table thead tr,
+.highcharts-data-table tr:nth-child(even) {
+  background: #f8f8f8;
+}
+
+.highcharts-data-table tr:hover {
+  background: #f1f7ff;
+}
+
+.insd{
+  margin-bottom: 50px;
+}
+
+.dowinves{
+  text-transform: uppercase;
+}
+.invesas{
+  background-color: #424242;
+  border-radius: 20px;
+}
+
+.invesasb{
+  background-color: #FFFFFF;
+  border-radius: 0px 0px 20px 20px!important;
+}
+
+.invesover1{
+  margin-top: 20px;
+}
+
+/* ---------------------------------------------------------------- */
+
+@media screen and (max-width: 1024px) and (min-width: 767px){
+  .divcommer{
+    padding: 15px!important;
+  }
+  .invesfem1 {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+}
+}
+
+@media screen and (max-width: 768px) and (min-width: 426px){
+  .divcommer{
+    padding: 15px!important;
+  }
+  .invesfem1 {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 150px;
+    display: grid;
+    align-content: center;
+    justify-self: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+  .invesfemtext1 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 0;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .invesfemtext2 {
+    font-size: 10px;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 425px) and (min-width: 321px){
+  .divcommer{
+    /* padding-top: 0px!important; */
+    padding: 0px 15px 0px 15px!important;
+  }
+  .invesfem1 {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 170px;
+    display: grid;
+    align-content: center;
+    justify-self: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    object-fit: cover;
+}
+  .invesfemtext1 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 0;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .invesfemtext2 {
+    font-size: 10px;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 320px) and (min-width: 0px){
+  .invesban {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+  .invescolor1 {
+    position: relative;
+    /* top: -184px; */
+    bottom: 260px;
+    background: linear-gradient(180deg, rgba(21, 48, 80, 0.29) 0%, #153050 100%);
+    width: 100%;
+    height: 130px;
+}
+.invescolor2 {
+  background: #1A2F4D;
+  position: relative;
+  /* top: -184px; */
+  bottom: 260px;
+  height: 130px;
+}
+.investext1 {
+  margin-top: 40px;
+  margin-left: 0px;
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 22px;
+  line-height: normal;
+  color: #ffffff;
+  text-align: center;
+}
+.investext2 {
+  margin-top: 0px;
+  margin-left: 0px;
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: normal;
+  color: #ffffff;
+  text-align: center;
+}
+.investext3 {
+  text-align: start;
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: normal;
+  margin-top: 20px;
+  margin-left: 0;
+  color: #C5A254;
+}
+.investext4 {
+  text-align: start;
+  font-family: 'Kanit';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 34px;
+  line-height: normal;
+  color: #ffffff;
+  margin-top: 8px;
+  margin-left: 20px;
+  display: flex;
+}
+.investext5 {
+  text-align: start;
+  color: #ffffff;
+  font-family: 'Kanit';
+  font-size: 10px;
+  line-height: normal;
+  margin-top: 8px;
+  margin-left: 0;
+}
+
+  .invesovertext2 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 48px;
+    color: #1A2F4D;
+}
+.investorline {
+  /* margin: 10px 30px; */
+  /* padding-top: 5px; */
+  padding-bottom: 8px;
+  border-left: 3px solid #C5A254;
+  /* height: 2px; */
+  width: 0px;
+  display: inline-block;
+}
+  .invesovertext3{
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 10;
+    font-size: 12px;
+    line-height: normal;
+    margin-top: -7px;
+  }
+  .divcommer{
+    /* padding-top: 0px!important; */
+    padding: 0px 15px 0px 15px!important;
+  }
+  .invesfem1 {
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 160px;
+    display: grid;
+    align-content: center;
+    justify-self: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    object-fit: cover;
+}
+  .invesfemtext1 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 0;
+    margin-top: 18px;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+  .invesfemtext2 {
+    font-size: 10px;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 0px;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+  }
+}

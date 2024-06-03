@@ -1,0 +1,29 @@
+.box{
+    margin-left: 100px;
+    width: 70%;
+    padding: 20px;
+    display: flex;
+    background: #ffffff;
+    margin: 10px auto;
+}
+
+.ban{
+    margin-left: 20px;
+}
+
+/*.item{
+    height: 200px;
+    padding: 10px;
+    background: lightsteelblue;
+    border: 1px solid #dddd;
+    flex: 1;*
+    transition: .2s;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+/*.item:hover{
+    flex: 3;
+    background: rgb 43,117,213;
+}*/

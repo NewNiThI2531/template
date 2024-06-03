@@ -1,0 +1,603 @@
+.conus{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.conaa{
+    text-align: center;
+    width: 778px;
+}
+.cu1{
+    color: #153050;
+    /* font-family: 'Italiana'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    /* line-height: 28px; */
+}
+.cu2{
+    color: #948668;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    /* line-height: 24px; */
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 86px;
+    /* width: 450px; */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+}
+
+.con1{
+    /*background-image: url(/asset/images/contactback.png);*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #948668;
+    width: 100%;
+    height: auto;
+    /*margin-top: ;*/
+}
+
+.con01{
+    height: 229;
+    margin-left:80px;
+    margin-top: 90px;
+    margin-bottom: -80px;
+}
+
+.contactim{
+    width: 420px;
+    height: 229px;
+    /*margin-bottom: 20px;*/
+}
+
+
+
+.contectcol2{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.contact4{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 640px;
+    height: 320;
+}
+.contactim4{
+    width: 100%;
+}
+.concol11{
+    margin-left: 0px;
+    font-weight: bold;
+    color: #1A2F4D; 
+    font-size: 20px;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+}
+.concol12{
+    text-align: start;
+    margin-left: 0px;
+    font-size: 14px;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+}
+.concol13{
+    text-align: start;
+    font-size: 14px;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+}
+.concol14{
+    text-align: center;
+    color: #424242;
+    font-size: 16px;
+}
+.concol15{
+    color: #424242;
+    font-size: 16px;
+}
+
+
+/**SETTING BUTTON */
+.butform{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.contactbut{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 2560px) and (min-width: 0px) {
+    .contactbut1
+    {
+    float: right;
+    background-color: #C5A254; 
+    border: none;
+    border: 2px solid #1A2F4D;
+    padding: 16px 32px;
+    font-weight: bold;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    text-transform: uppercase;
+    transition-duration: 0.4s;
+    width: 230px;
+    transition: 0.5s;
+    }
+
+    }
+.contactbut1 { /**button1 */
+  }
+.contactbut1:link, .contactbut1:visited {
+    background-color: #1A2F4D;
+    color: rgb(255, 255, 255);
+    padding: 6px 11px;
+    width: 160px;
+    text-align: center;	
+    text-decoration: none;
+    display: inline-block;
+}
+.contactbut1:hover, .contactbut1:active {
+    background-color: rgb(255, 255, 255);
+    color: #1A2F4D;
+}
+
+.contactbut2 { /**button2 */
+    float: left;
+    background-color: #C5A254; 
+    border: 2px solid #C5A254;
+    padding: 16px 32px;
+    font-weight: bold;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    text-transform: uppercase;
+    width: 230px;
+    transition: 0.5s;
+  }
+.contactbut2:link, .contactbut2:visited {
+    background-color: #C5A254;
+    color: rgb(255, 255, 255);
+    padding: 6px 11px;
+    width: 160px;
+    text-align: center;	
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.contactbut2:hover, .contactbut2:active {
+    background-color: rgb(255, 255, 255);
+    color: #1A2F4D;
+}
+
+/** ROW BANNER IMAGES&TEXT GOLDBACKGROUND----------------------- */
+
+.rowcon01{
+    /* height: 229px; */
+    /* display: grid; */
+    align-content: center;
+    justify-self: center;
+    margin-top: 20px;
+    /* margin-bottom: 20px; */
+    /* margin-left: 20px; */
+  }
+  .rowcon02{
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    height: 229px;
+    display: grid;
+    align-content: center;
+    justify-self: center;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+  }
+  .rowcon03{
+    width: auto;
+    height: 229px;
+    display: grid;
+    align-content: center;
+    justify-self: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+  }
+  .context00{
+    /* margin-left: 8%; */
+    margin-top: 5%;
+  }
+  .context1{
+    margin-left: 60px;
+    color: #ffffff;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    /* line-height: 36px; */
+}
+.contactlogo{
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 2560px) and (min-width: 0px) {
+    .context2
+    {
+        color: #ffffff;
+        margin-left: 60px;
+        font-family: 'Kanit';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 15px;
+        /* line-height: 24px; */
+        -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 10;
+    }
+
+    }
+
+    /* @media screen and (max-width: 768px) and (min-width: 767px){
+    .context2 {
+    color: #ffffff;
+    margin-left: 0px;
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    /* line-height: 24px; 
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 10;
+} */
+
+    @media screen and (max-width: 2560px) and (min-width: 1440px) {
+        .con1
+        {
+            /* height: 772px!important; */
+        }
+        .picture{
+            width: 90%;
+        }
+    
+        }
+
+        @media screen and (max-width: 1024px) and (min-width: 766px) {
+            .con1 {
+                height: auto;
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+            .picture{
+                width: 100%;
+            }
+            .context1 {
+                margin-left: 0px;
+                text-align: center;
+            }
+            .context2{
+                text-align: left;
+                margin-left: 0px;
+            }
+        
+            }
+    @media screen and (max-width: 767px) and (min-width: 424px) {
+        .picture
+        {
+           width: 100%;
+        }
+    
+        }
+    
+        @media screen and (max-width: 425px) and (min-width: 300px) {
+            .picture
+            {
+               width: 100%;
+            }
+            .con1
+            {
+                height: auto;
+            }
+            .context1{
+                text-align: center;
+                margin-left: 0px;
+            }
+            .context2{
+                text-align: center;
+                margin-left: 0px;
+            }
+            }
+
+            @media screen and (max-width: 320px) and (min-width: 300px) {
+                .picture
+                {
+                   width: 80%;
+                }
+            
+                }
+
+                @media screen and (max-width: 767px) and (min-width: 300px) {
+                    .picture
+                    {
+                       width: 100%;
+                    }
+                
+                    }
+                
+                    @media screen and (max-width: 460px) and (min-width: 300px) {
+                        .picture
+                        {
+                           width: 100%;
+                        }
+                    
+                        }
+
+                        @media screen and (max-width: 320px) and (min-width: 300px) {
+                            .picture
+                            {
+                               width: 100%;
+                            }
+                        
+                            }
+
+                            
+                            @media screen and (max-width: 320px) and (min-width: 0px) {
+                                .contactbut2
+                                {
+                                    /* float:left ; */
+                                    font-size: 20px;
+                                    padding: 14px 25px;
+                                    padding-left: 0; 
+                                    padding-right: 0;
+                                    width: 200px;
+
+                                }
+                                .contactbut1
+                                {
+                                    /* float:right ; */
+                                    font-size: 20px;
+                                    padding: 14px 25px;
+                                    padding-left: 0; 
+                                    padding-right: 0;
+                                    width: 200px;
+                                }
+                                .concol14 
+                                {
+                                    font-size: 16px;    
+                                }
+                                .concol15
+                                {
+                                    font-size: 10px;
+                                }
+                                .context1
+                                {
+                                    margin-top: 0px;
+                                    font-size: 16px;
+                                }
+                                .context2
+                                {
+                                    font-size: 12px;
+                                }
+                                .concol11
+                                {
+                                    text-align: center;
+                                }
+                                .concol12
+                                {
+                                    text-align: center;
+                                }
+                                .conus
+                                {
+                                    margin-bottom: 20px;
+                                }
+                                .cu1
+                                {
+                                    /* margin-top: -20px; */
+                                    font-size: 18px;
+                                }
+                                .cu2
+                                {
+                                    margin-top: 0px;
+                                    font-size: 12px;
+                                    margin-bottom: 30px;
+                                }
+                                }
+
+                                @media screen and (max-width: 575px) and (min-width: 0px) {
+                                    .concol11
+                                    {
+                                        text-align: center;
+                                    }
+                                    .concol12
+                                    {
+                                        text-align: center;
+                                    }
+                                    .concol13
+                                    {
+                                        text-align: center;
+                                    }
+                                    /* .butform{
+                                        padding-left: 91px;
+                                        padding-right: 80px;
+                                    } */
+                                    }
+                                            @media screen and (max-width: 375px) and (min-width: 0px) {                                         
+                                                .butform{
+                                                    padding-left: 0px;
+                                                    padding-right: 0px;
+                                                }
+                                                }
+                                                    @media screen and (max-width: 0px) and (min-width: 1440px) {
+                                                        .contactbut2
+                                                        {
+                                                            float:left ;
+                                                        }
+                                                        .contactbut1
+                                                        {
+                                                            float:right ;
+                                                        }
+                                                        }
+
+                                                        @media screen and (max-width: 768px) and (min-width: 321px) {
+                                                            .contactbut2
+                                                            {
+                                                                width: 180px;
+                                                                font-size: 20px;                                                          
+                                                                float:left ;
+                                                            }
+                                                            .contactbut1
+                                                            {
+                                                                width: 190px;
+                                                                font-size: 20px;
+                                                                float:right ;
+                                                            }
+                                                            .concol14 
+                                                            {
+                                                                font-size: 18px;
+                                                            }
+                                                            .concol15
+                                                            {
+                                                                font-size: 15px; 
+                                                            }
+                                                            .rowcon01 {
+                                                                display: grid;
+                                                                /* justify-content: center; */
+                                                            }
+                                                            .con1{
+                                                                padding-top: 10px;
+                                                                padding-bottom: 20px;
+                                                            }
+                                                            .context1 {
+                                                                margin-left: 0px;
+                                                                text-align: center;
+                                                                margin-top: 0px;
+                                                                font-size: 18px;
+                                                                font-weight: 400;
+                                                            }
+                                                            .context2 {
+                                                                text-align: left;
+                                                                margin-left: 0px;
+                                                                font-size: 15px;
+                                                                /* padding-left: 40px; */
+                                                                /* padding-right: 40px; */
+                                                            }
+                                                            .cu2 {
+                                                                margin-bottom: 30px;
+                                                                font-size: 15px;
+                                                                margin-top: 10px;
+                                                            }
+                                                            }
+
+                                                            @media screen and (max-width: 425px) and (min-width: 0px) {
+                                                                .contactbut2
+                                                                {
+                                                                    width: 150px;
+                                                                    font-size: 16px;                                                          
+                                                                    /* float:left ; */
+                                                                }
+                                                                .contactbut1
+                                                                {
+                                                                    width: 160px;
+                                                                    font-size: 16px;
+                                                                    /* float:right ; */
+                                                                }
+                                                                .context2 {
+                                                                    text-align: left;
+                                                                    margin-left: 0px;
+                                                                    font-size: 15px;
+                                                                    padding-left: 10px;
+                                                                    padding-right: 10px;
+                                                                }
+                                                                }
+
+                                                                @media screen and (max-width: 425px) and (min-width: 321px) {
+                                                                    .butform{
+                                                                        padding-left: 10px!important;
+                                                                        padding-right: 10px!important;
+                                                                    }
+                                                                    .contactbut1:link, .contactbut1:visited {
+                                                                        padding: 4px 7px;
+                                                                        width: 134px;
+                                                                    }
+                                                                    .contactbut2:link, .contactbut2:visited {
+                                                                        padding: 4px 7px;
+                                                                        width: 134px;
+                                                                    }
+                                                                    .context2 {
+                                                                        text-align: left;
+                                                                        margin-left: 0px;
+                                                                        font-size: 12px;
+                                                                        padding-left: 10px;
+                                                                        padding-right: 10px;
+                                                                        line-height: normal;
+                                                                    }
+                                                                }
+
+                                                                @media screen and (max-width: 320px) and (min-width: 0px) {
+                                                                    .butform{
+                                                                        padding-left: 5px!important;
+                                                                        padding-right: 5px!important;
+                                                                    }
+                                                                    .contactbut1:link, .contactbut1:visited {
+                                                                        padding: 4px 7px;
+                                                                        width: 134px;
+                                                                    }
+                                                                    .contactbut2:link, .contactbut2:visited {
+                                                                        padding: 4px 7px;
+                                                                        width: 134px;
+                                                                    }
+                                                                    .context2 {
+                                                                        text-align: left;
+                                                                        margin-left: 0px;
+                                                                        font-size: 12px;
+                                                                        /* padding-left: 10px; */
+                                                                        /* padding-right: 10px; */
+                                                                        margin-bottom: 0px;
+                                                                    }
+                                                                    .con1 {
+                                                                        padding-top: 10px;
+                                                                        padding-bottom: 20px;
+                                                                    }
+                                                                }
+
+
+                                                                @media screen and (max-width: 576px) and (min-width: 0px) {
+                                                                    .conaa {
+                                                                        text-align: center;
+                                                                        width: auto;
+                                                                    }                                                               
+                                                                    }
+
+                                                                    @media screen and (max-width: 828px) and (min-width: 766px){
+                                                                        .rowcon01{
+                                                                        display: grid;
+                                                                        justify-content: center;
+                                                                    }
+                                                                        .picture{
+                                                                            width: 100%;
+                                                                        }
+                                                                    }

@@ -1,0 +1,137 @@
+/* .cm0{
+    background-image: url(/asset/images/ree.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 750px;
+} */
+
+body{
+    background: #EDEDED;
+}
+.cm00{
+    /* margin-bottom: 160px; */
+    padding-top: 50px;
+}
+.cm1{
+    width: 49%
+}
+
+.cm2{
+    width: 49%;
+    position: relative;
+    top: 100px
+    
+}
+.frame{
+    font-family: 'Acme', sans-serif;
+    margin-top: -350px;
+    margin-left: 700px;
+
+}
+.textbms1{
+    padding-top: 100px;
+    color: #153050;
+    font-size: 40px;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+
+    color: #153050;
+
+}
+.textbms2{
+    margin-top: 10px;
+    margin-bottom: 250px;
+    color: #153050;
+    font-size: 20px;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 8;
+
+    font-family: 'Kanit';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+
+    color: #153050;
+}
+
+@media screen and (max-width: 1208px) and (min-width: 0px) {
+    .textbms2
+    {   
+        padding-bottom: 70px;
+        font-size: 16px;
+        margin-bottom: 70px;
+    }
+    .textbms1
+        {   
+            font-size: 26px;
+            padding-top: 100px;
+            font-family: 'Kanit';
+            font-style: normal;
+        }
+        .cm0
+        {   
+            height: auto;
+            font-family: 'Kanit';
+            font-style: normal;
+        }
+    }
+
+    @media screen and (max-width: 768px) and (min-width: 321px) {
+        .textbms2
+        {   
+            margin-bottom: 30px;
+            padding-bottom: 0px;
+            font-size: 13px;
+        }
+        .textbms1
+            {   
+                font-size: 22px;
+                padding-top: 100px;
+                font-family: 'Kanit';
+                font-style: normal;
+            }
+        }
+        @media screen and (max-width: 767px) and (min-width: 321px) {
+            .textbms1
+                {   
+                    font-size: 22px;
+                    padding-top: 120px;
+                }
+            }
+
+    @media screen and (max-width: 320px) and (min-width: 0px) {
+        .textbms2
+        {   
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+            font-size: 11px;
+            height: 170px;
+            overflow-y: scroll;
+        }
+        .textbms1
+            {   
+                font-size: 18px;
+                padding-top: 120px;
+                font-family: 'Kanit';
+                font-style: normal;
+            }
+            .cm0
+            {   
+                height: auto;
+                font-family: 'Kanit';
+                font-style: normal;
+            }
+        }
+       
